@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+    Student Name: Brandi Gordon
+    File name: contact.html
+    Date: September 17, 2022
+-->
+<html lang="en">
+<head>
+    <title>Personal Portfolio: Contact</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Brandi Gordon</h1>
+        <figure>
+            <img src="images/brandi_gordon.png" alt="Brandi Gordon" class="center">
+            <figcaption><h3>Student Web Developer</h3></figcaption>
+        </figure>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="career.html">Career</a></li>
+            <li><a href="showcase.html">Showcase</a></li>
+        </ul>
+    </nav>
+
+    <!-- Use the main area to add the main content of the webpage -->
+    <main>
+
+        <article>
+            <h2>You can reach me via the following:</h2>
+        </article>
+        <article>
+            <h3>Email</h3>
+        <p><a href="mailto:bgordon005@my.wilmu.edu">bgordon005@my.wilmu.edu</a></p>
+      </article>
+      <article>
+            <h3>Cellphone</h3>
+        <p>302-922-3874</p>
+      </article>
+      <article>
+            <h3>Location</h3>
+        <p>My college is located at:</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3070.5631050968223!2d-75.58861858462627!3d39.68204137945724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c703b048560cd5%3A0xdee9dd3f4f637375!2sWilmington%20University!5e0!3m2!1sen!2sus!4v1665967822113!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      </article>
+
+
+      <div id="form">
+
+          <h2>Or contact me with this form</h2>
+
+          <form><!-- Start Form -->
+
+              <fieldset>
+                  <legend>Contact Me</legend>
+                  <label for="fName">First Name:</label>
+                  <input type="text" id="fName" name="fName" required>
+
+                  <label for="lName">Last Name:</label>
+                  <input type="text" name="lName" id="lName" required>
+
+                  <label for="email">Email:</label>
+                  <input type="email" name="email" id="email" required>
+
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone" required>
+              </fieldset>
+              <fieldset>
+                  <legend>Reason for Contact</legend>
+
+                  <label for="inquiry">Inquiry</label>
+                  <textarea id="inquiry" name="inquiry" rows="5" cols="35"></textarea>
+              </fieldset>
+
+              <input type="submit" id="submit" value="Submit" class="btn">
+          </form>
+
+    </div>
+    
+    </main>
+
+    <footer>
+        <p>&copy; Copyright 2022. All Rights Reserved.</p>
+        <p><a href="mailto:bgordon005@my.wilmu.edu">bgordon005@my.wilmu.edu</a></p>
+    </footer>
+
+</body>
+</html>

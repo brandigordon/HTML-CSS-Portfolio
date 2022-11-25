@@ -1,0 +1,246 @@
+/*
+Author: Brandi Gordon
+Date: 09/24/2022
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, article, section, footer, img, ul, h1, h2, h3, figure, figcaption, table {
+    margin: 25px;
+    padding: 0;
+    border: 0;
+}
+
+
+
+/* Style Rules for Header */
+
+header img {
+    margin: 0 auto;
+}
+
+
+/* Style Rules for Nav */
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: #ffe6f7;
+}
+
+nav li {
+    font-size: 1.5em;
+    font-family: 'Francois One', sans-serif;
+    border-top: 1px solid #000000;
+
+}
+
+nav li:first-child {
+      border-top: none;
+}
+
+nav li a {
+    display: block;
+    color: #000000;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+
+/* Style Rules for Main */
+main {
+    font-family: Cambria, "Times New Roman", serif;
+    clear: left;
+    background-color: #ffe6f7;
+    padding: 2%;
+    font-size: 1.25em;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+
+/* Style Rules for Footer */
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #cc0088;
+    padding: 0 1em;
+}
+
+footer p a {
+    color: #cc0088;
+    text-decoration: none;
+}
+
+/* Style rules for h2 */
+
+h2 {
+  text-shadow: 1px 2px 2px #292933;
+}
+
+
+/* #ID Selector Rules */
+#contact {
+    text-align: center;
+}
+
+/* .Class attributes */
+.center {
+    margin: 0 auto;
+}
+
+.action {
+    font-size: 1.00em;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.career {
+    text-align: center;
+}
+
+/* Style Rules for All Links */
+:link {
+    text-decoration: none;
+}
+
+
+/* Style Rules for Form - Week 7 */
+
+#form {
+    margin-top: 2%;
+    padding: 2%;
+}
+
+#form h2 {
+    text-align: center;
+}
+
+
+/* Style Rules for Form elements - Week 7 */
+fieldset, input, textarea {
+    margin-bottom: 2%;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+label {
+    display: block;
+    padding-top: 3%;
+}
+
+form #submit {
+    margin: 0 auto;
+    border: none;
+    display: block;
+    padding: 2%;
+    background-color: #b3b3b3;
+    font-size: 1em;
+    border-radius: 10px;
+}
+
+/* Media Query for Mobile - Table Rules - Week 7 */
+
+  @media screen and (max-width: 600px) {
+
+    table {
+      display: none;
+    }
+
+
+  }
+
+
+/* Media Query for Tablet Viewport */
+
+@media screen and (min-width: 630px) {
+
+    /* Tablet Viewport: Show Tablet-Desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    /* Tablet viewport: style rules for form element, dl element, Week 7 */
+    form {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    dl {
+      display: none;
+    }
+
+}
+
+    /* Tablet Viewport: Style rules for table - updated Week 7 */
+
+    table, th, td {
+        border: 0.1em solid #000;
+        border-collapse: collapse;
+        height: 2em;
+        text-align: center;
+    }
+
+    caption, td {
+        padding: 1em;
+    }
+
+    caption {
+        color: #cc0088;
+    }
+
+
+/* Media Query for Desktop Viewport */
+
+@media screen and (min-width: 750px) {
+
+  nav li a:hover {
+      color: #000;
+      background-color: #fff;
+  }
+
+    /* Table rules for Desktop Viewport - updated Week 7 */
+
+    table {
+      width: 80%;
+    }
+
+    /* Style rules for desktop form elements, dl element - week 7 */
+
+    form {
+        width: auto;
+    }
+
+    .form-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+    }
+
+    dl {
+      display: none;
+    }
+
+}
